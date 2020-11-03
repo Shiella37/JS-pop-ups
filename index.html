@@ -1,0 +1,49 @@
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+	<main>
+    <div class="subscribe-section">
+      <h1>Baking Dreams</h1>
+      <p id="output">Pick Me. Choose Me. Love Me.</p>
+      <button class="modal-btn">click</button>
+    </div>
+
+		<div class id="popup" class="hidden">
+			Subscribe To Our Dreams
+			<form id="information">
+				<label for="user-name">Your name:</label>
+				<input type="text" name="userName" id="user-name" />
+        <label for="user-name">Your email add:</label>
+				<input type="text" name="userName" id="user-name" />
+				<p>Try to bake your dreams now!</p>
+				<p>
+					<label for="yes">Yes</label>
+					<input
+                type="checkbox"
+                name="yes"
+                id="yes"
+              />
+            </p>
+					<p>
+						<label for="no">No</label>
+						<input
+                type="checkbox"
+                name="no"
+                id="no"
+              />
+            </p>
+
+							<button class="button">Subscribe</button>
+              <span class="modal-close">X</span>
+			</form>
+		</div>
+	</main>
+	<script src="script.js"></script>
+</body>
+
+</html>
